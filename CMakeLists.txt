@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.10)
+project(adventOfCode)
+
+set(CMAKE_CXX_STANDARD 17)
+
+if(MSVC)
+    add_compile_options(/W4)
+else()
+    add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+add_executable(day1a day1/main1a.cpp)
+add_executable(day1b day1/main1b.cpp)
+add_executable(day2 day2/main2.cpp)
+add_executable(day3 day3/main3.cpp)
+add_executable(day4 day4/main4.cpp)
+add_executable(day5 day5/main5.cpp)
+add_executable(day6 day6/main6.cpp)
+add_executable(day7 day7/main7.cpp)
+add_executable(day8 day8/main8.cpp)
