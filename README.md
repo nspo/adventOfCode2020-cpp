@@ -1,2 +1,2 @@
-# adventOfCode2020-cpp
-Solutions to adventofcode.com/2020 in C++
+# Solutions to Advent of Code 2020 in C++
+adventofcode.com/2020
